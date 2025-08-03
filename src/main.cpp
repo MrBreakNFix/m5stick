@@ -28,7 +28,7 @@ void setup() {
     M5.Display.setTextSize(2);
     M5.Display.setTextColor(WHITE);
     M5.Display.setCursor(5, 5);
-    M5.Display.println("Digital Level");
+    M5.Display.println("Level");
 
     // Initial draw of the target circles
     M5.Display.drawCircle(centerX, centerY + LEVEL_Y_OFFSET, 50, WHITE);
